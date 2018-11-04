@@ -1,7 +1,7 @@
 import os
 
 mockThis = input("What are we mocking today?\n")
-uppercase = False
+uppercase = True
 mocked = ""
 for letter in mockThis:
     if letter.isalpha():
